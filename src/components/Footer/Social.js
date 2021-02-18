@@ -1,6 +1,17 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import tippy from 'tippy.js';
+import 'tippy.js/dist/tippy.css';
+
+
+tippy('.github', {
+    content: 'Github',
+});
+
+tippy('.linkedin', {
+    content: 'Linkedin',
+});
 
 const Social = () => {
         return(
