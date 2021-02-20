@@ -3,15 +3,14 @@ import { HomeContainer } from './Home.elements';
 // import globalStyle from '../../components/globalStyles';
 
 const Home = () => {
-    return (
-            <>
-                {/* <img src={} alt="..." className="image" /> */}
-                <HomeContainer>
-                    <h1>I'm Kionte Jones</h1>
-                    <h2>Welcome to my portfolio</h2>
-                </HomeContainer>
-            </>
-    )
-}
-
+            return (
+                    <>
+                        <HomeContainer>
+                            <h1>I'm Kionte Jones</h1>
+                            <p>Welcome to my portfolio</p>
+                            <img src={process.env.PUBLIC_URL + "/assets/images/imageOfME.jpg"} />
+                        </HomeContainer>
+                    </>     
+            )
+    }
 export default Home;

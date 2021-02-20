@@ -7,18 +7,20 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "@tippyjs/react": "^4.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-tooltip": "^4.2.14",
     "react-typing-effect": "^2.0.4",
     "styled-components": "^5.2.1",
-    "tippy.js": "^6.2.7",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",
+    "preinstall": "npx npm-force-resolutions",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -45,5 +47,8 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
+  },
+  "resolutions": {
+    "yargs-parser": "^13.1.2"
   }
 }

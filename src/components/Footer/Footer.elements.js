@@ -7,14 +7,14 @@ export const Foot = styled.footer`
     justify-content: space-evenly;
     margin-top: 100vh;   
 
-    .github {
+    #github {
         color: black;
         &:hover {
         transform: translateY(-2px);
         }
     }
 
-    .linkedin {
+    #linkedin {
         color: blue;
         &:hover {
         transform: translateY(-2px);
