@@ -1,11 +1,16 @@
 import React from 'react';
+import { ProjectsContainer } from './Projects.elements';
 // import globalStyle from '../../components/globalStyles';
 
 const Projects = () => {
     return (
-            <main>
-                <h1>My Projects!</h1>
-            </main>
+            <>
+                <h2>My Projects!</h2>
+                
+                <ProjectsContainer>
+                    
+                </ProjectsContainer>
+            </>
     )
 }
 

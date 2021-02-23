@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
 const Social = () => {
@@ -11,6 +11,11 @@ const Social = () => {
  
         <a href="https://www.linkedin.com/in/kionte-jones-315ab61b3/">
             <FaLinkedin id="linkedin" size="30px" />
+        </a>
+
+        <a href="https://www.facebook.com/kionte.jones">
+            <FaFacebook id='facebook' size='30px' />
+
         </a>
     </>
     ); 

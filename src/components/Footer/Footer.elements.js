@@ -20,4 +20,11 @@ export const Foot = styled.footer`
         transform: translateY(-2px);
         }
     }
+
+    #facebook {
+        color: blue;
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
 `;

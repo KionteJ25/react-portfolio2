@@ -7,8 +7,9 @@ const Home = () => {
                     <>
                         <HomeContainer>
                             <h1>I'm Kionte Jones</h1>
+                            <img className='image' src={process.env.PUBLIC_URL + "/assets/images/imageOfME.jpg"} />
                             <p>Welcome to my portfolio</p>
-                            <img src={process.env.PUBLIC_URL + "/assets/images/imageOfME.jpg"} />
+                            
                         </HomeContainer>
                     </>     
             )
