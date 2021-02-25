@@ -5,7 +5,8 @@ export const Foot = styled.footer`
     padding: 25px 50px;
     background-color: #eee;
     justify-content: space-evenly;
-    margin-top: 100vh;   
+    padding-top: 1.8vh;
+
 
     #github {
         color: black;
