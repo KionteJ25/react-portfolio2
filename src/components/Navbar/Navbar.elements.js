@@ -9,7 +9,6 @@ export const Nav = styled.nav`
     background-color: red;
     color: white;
     height: 80px;
-    position: sticky;
     top: 0;
     font-size: 1.3rem;
  `;
