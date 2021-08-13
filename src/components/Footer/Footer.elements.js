@@ -16,14 +16,14 @@ export const Foot = styled.footer`
     }
 
     #linkedin {
-        color: blue;
+        color: #0077b5;
         &:hover {
         transform: translateY(-2px);
         }
     }
 
     #facebook {
-        color: blue;
+        color: #1778F2;
         &:hover {
             transform: translateY(-2px);
         }
